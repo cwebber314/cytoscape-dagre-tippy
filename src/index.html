@@ -1,0 +1,20 @@
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.14.7/dist/umd/popper.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cytoscape-popper@1.0.5/cytoscape-popper.min.js"></script>
+  <script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js"></script>
+    <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.js"></script>
+    <script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-dagre/1.5.0/cytoscape-dagre.js"></script>
+<!-- This doesn't work with tippy 6.x popperInstance is null-->
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/backdrop.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/themes/light.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/themes/translucent.css">
+
+</head>
+
+<body>
+  <h1>Cytoscape JS example with dagre and tippy</h1>
+  <p>We can have tooltips show permanently or on hover. See code comments for examples.</p>
+  <div id="cy"></div>
+</body>
